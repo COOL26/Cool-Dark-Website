@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+header figure {
+  position: relative;
+}
+
+header figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+#VG {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+header .mask1 {
+  position: absolute;
+}
+
+.mainHeadingPara {
+  font-family: "Schibsted Grotesk", sans-serif;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  font-size: 1.25rem;
+  width: 75%;
+  color: white;
+  text-align: right;
+  line-height: 33px;
+  padding: 0 6px;
+}
+
+.mainHeadingPara p {
+  color: #fbd784;
+  font-size: smaller;
+}
+
+main {
+  background-color: black;
+  color: white;
+}
+
+.main-container .sub-container-2 {
+  display: flex;
+  align-items: center;
+}
+
+.main-container .sub-container-2 #vertical {
+  writing-mode: vertical-lr;
+  font-size: 35px;
+  margin: 8%;
+  color: #fbd784;
+  font-family: "Duru Sans", sans-serif;
+  text-decoration: underline;
+}
+
+.main-container .sub-container-2 img {
+  width: 60%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 33px;
+  margin-top: 22px;
+  margin-left: 22px;
+  margin-bottom: 22px;
+  outline: 3px solid white;
+  outline-offset: 5px;
+}
+
+.main-container .sub-container-1 h2 {
+  font-family: "Schibsted Grotesk", sans-serif;
+  margin-bottom: 22px;
+}
+
+.main-container .sub-container-1 #get-started {
+  color: #fbd784;
+  font-family: "Duru Sans", sans-serif;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.main-container .sub-container-1 .para {
+  border: 2px solid white;
+  padding: 5px 10px;
+  width: 90%;
+  margin: 0 auto;
+  outline: 3px solid white;
+  outline-offset: 5px;
+  margin-bottom: 22px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  margin-right: 22px;
+}
