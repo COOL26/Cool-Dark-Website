@@ -50,6 +50,10 @@ main {
   color: white;
 }
 
+.main-container .sub-container-1 {
+  position: relative;
+}
+
 .main-container .sub-container-2 {
   display: flex;
   align-items: center;
@@ -85,7 +89,7 @@ main {
   color: #fbd784;
   font-family: "Duru Sans", sans-serif;
   margin-bottom: 8px;
-  margin-left: 8px;
+  margin-left: 50px;
 }
 
 .main-container .sub-container-1 .para {
@@ -101,4 +105,14 @@ main {
 .reverse {
   flex-direction: row-reverse;
   margin-right: 22px;
+}
+
+.main-container .sub-container-1 div.zero-1 {
+  position: absolute;
+  top: -54px;
+  left: 0;
+  color: #ffffff;
+  font-size: 120px;
+  opacity: 33%;
+  font-weight: 900;
 }
