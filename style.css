@@ -46,7 +46,7 @@ header .mask1 {
 }
 
 main {
-  background-color: black;
+  background-color: #354147;
   color: white;
 }
 
@@ -70,14 +70,15 @@ main {
 
 .main-container .sub-container-2 img {
   width: 60%;
+  max-width: 350px;
   height: 75%;
   object-fit: cover;
-  border-radius: 33px;
+  /* border-radius: 33px; */
   margin-top: 22px;
   margin-left: 22px;
   margin-bottom: 22px;
-  outline: 3px solid white;
-  outline-offset: 5px;
+  /* outline: 3px solid white; */
+  /* outline-offset: 5px; */
 }
 
 .main-container .sub-container-1 h2 {
@@ -93,13 +94,14 @@ main {
 }
 
 .main-container .sub-container-1 .para {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 5px 10px;
   width: 90%;
   margin: 0 auto;
-  outline: 3px solid white;
-  outline-offset: 5px;
+  /* outline: 3px solid white; */
+  /* outline-offset: 5px; */
   margin-bottom: 22px;
+  font-size: 18px;
 }
 
 .reverse {
@@ -112,7 +114,70 @@ main {
   top: -54px;
   left: 0;
   color: #ffffff;
-  font-size: 120px;
-  opacity: 33%;
+  font-size: 150px;
+  opacity: 20%;
   font-weight: 900;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 754px) {
+  header .mainHeadingPara h1 {
+    font-size: 88px;
+    line-height: 100px;
+    font-weight: 600;
+  }
+  header .mainHeadingPara #first-para {
+    font-size: 18px;
+    line-height: 22.05px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin-top: 32px;
+  }
+  main {
+    background-color: #354147;
+  }
+  main .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  main .main-container .sub-container-2 img {
+    width: 75%;
+    min-width: 100px;
+    object-fit: cover;
+    border-radius: 0;
+    outline: none;
+  }
+  main .main-container .sub-container-1 {
+    width: 75%;
+    min-width: 250px;
+  }
+  main .main-container .sub-container-1 .para {
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    border: none;
+    width: 75%;
+    min-width: 250px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  main .main-container .sub-container-1 h2 {
+    font-size: 54px;
+    line-height: 76.8px;
+    font-weight: 600;
+  }
+  main .main-container .sub-container-1 #get-started {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22.05px;
+    letter-spacing: 6px;
+  }
+  main .main-container .sub-container-1 .zero-1 {
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 240px;
+    opacity: 20%;
+    top: -115px;
+  }
 }
